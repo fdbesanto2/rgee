@@ -72,7 +72,7 @@
 #' of its inputs.
 #' }
 #' @examples
-#'
+#' \dontrun{
 #' library(rgee)
 #' library(sf)
 #'
@@ -110,8 +110,7 @@
 #'   main = "2001 Jan Precipitation - Terraclimate",
 #'   reset = FALSE
 #' )
-#'
-#' dev.off()
+#' }
 #' @export
 ee_extract <- function(x,
                        y,
